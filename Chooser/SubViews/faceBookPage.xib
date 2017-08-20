@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="faceBookPage">
+            <connections>
+                <outlet property="_feedButton" destination="8" id="9"/>
+                <outlet property="_label" destination="5" id="10"/>
+                <outlet property="_loginButton" destination="6" id="12"/>
+                <outlet property="_permissionButton" destination="7" id="11"/>
+                <outlet property="view" destination="4" id="13"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="12" y="147" width="296" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                    <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="65.5" y="227" width="189" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="CtR-Sj-7QJ"/>
+                        <constraint firstAttribute="width" constant="189" id="WQv-ni-VPh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="1. Get Permission" backgroundImage="button.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="disabled" title="Get Permission"/>
+                    <state key="selected" title="Get Permission"/>
+                    <state key="highlighted" title="Get Permission">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="askPermission:" destination="-1" eventType="touchUpInside" id="18"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="65.5" y="310" width="189" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="189" id="DO9-dP-YFn"/>
+                        <constraint firstAttribute="height" constant="49" id="paf-eA-cV5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="2. Share Result!" backgroundImage="button.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="publishFeed:" destination="-1" eventType="touchUpInside" id="17"/>
+                    </connections>
+                </button>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6" customClass="FBLoginButton">
+                    <rect key="frame" x="60" y="100" width="200" height="31"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="nhQ-mX-u5M"/>
+                        <constraint firstAttribute="height" constant="31" id="zTc-0M-mcC"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19">
+                    <rect key="frame" x="16" y="12" width="72" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="1Vy-pQ-yDj"/>
+                        <constraint firstAttribute="height" constant="37" id="r1C-No-es3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Back" backgroundImage="button.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="back_clicked:" destination="-1" eventType="touchUpInside" id="20"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.88299238681793213" green="0.8879019021987915" blue="0.88285684585571289" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="16" id="07n-Ct-FT5"/>
+                <constraint firstItem="7" firstAttribute="centerX" secondItem="4" secondAttribute="centerX" id="1Pl-tN-MQw"/>
+                <constraint firstItem="8" firstAttribute="centerX" secondItem="4" secondAttribute="centerX" id="DM9-Gi-SOI"/>
+                <constraint firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="12" id="Jn0-fg-lzb"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="5" secondAttribute="bottom" constant="80" id="Rx3-Dt-ixK"/>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="4" secondAttribute="leading" constant="16" id="ack-Nc-Kq3"/>
+                <constraint firstItem="5" firstAttribute="leading" secondItem="4" secondAttribute="leading" constant="12" id="cKZ-N7-ZXp"/>
+                <constraint firstItem="6" firstAttribute="top" secondItem="4" secondAttribute="top" constant="100" id="fO9-Jy-DEE"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="34" id="guV-zh-5aM"/>
+                <constraint firstItem="19" firstAttribute="top" secondItem="4" secondAttribute="top" constant="12" id="wbB-ms-CFv"/>
+                <constraint firstItem="6" firstAttribute="centerX" secondItem="4" secondAttribute="centerX" id="xnY-oM-knc"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button.png" width="213" height="53"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

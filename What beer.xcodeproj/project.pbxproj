@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71EA6191F457F5700B18C73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6181F457F5700B18C73 /* main.m */; };
+		D71EA61C1F457F5700B18C73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA61B1F457F5700B18C73 /* AppDelegate.m */; };
+		D71EA61F1F457F5700B18C73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA61E1F457F5700B18C73 /* ViewController.m */; };
+		D71EA6221F457F5700B18C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6201F457F5700B18C73 /* Main.storyboard */; };
+		D71EA6251F457F5700B18C73 /* Chooser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6231F457F5700B18C73 /* Chooser.xcdatamodeld */; };
+		D71EA6271F457F5700B18C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6261F457F5700B18C73 /* Assets.xcassets */; };
+		D71EA62A1F457F5700B18C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6281F457F5700B18C73 /* LaunchScreen.storyboard */; };
+		D71EA6431F46050F00B18C73 /* 1DPB.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6321F46050F00B18C73 /* 1DPB.png */; };
+		D71EA6441F46050F00B18C73 /* AF2.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6331F46050F00B18C73 /* AF2.png */; };
+		D71EA6451F46050F00B18C73 /* blue button.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6341F46050F00B18C73 /* blue button.png */; };
+		D71EA6461F46050F00B18C73 /* Budweiser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6351F46050F00B18C73 /* Budweiser.jpg */; };
+		D71EA6471F46050F00B18C73 /* Budweiser.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6361F46050F00B18C73 /* Budweiser.png */; };
+		D71EA6481F46050F00B18C73 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6371F46050F00B18C73 /* button.png */; };
+		D71EA6491F46050F00B18C73 /* cool blue quiz ribbons merged.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6381F46050F00B18C73 /* cool blue quiz ribbons merged.png */; };
+		D71EA64A1F46050F00B18C73 /* cool blue quiz ribbons merged.psd in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6391F46050F00B18C73 /* cool blue quiz ribbons merged.psd */; };
+		D71EA64B1F46050F00B18C73 /* cool blue quiz ribbons.psd in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63A1F46050F00B18C73 /* cool blue quiz ribbons.psd */; };
+		D71EA64C1F46050F00B18C73 /* Coors Light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63B1F46050F00B18C73 /* Coors Light.jpg */; };
+		D71EA64D1F46050F00B18C73 /* Coors Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63C1F46050F00B18C73 /* Coors Light.png */; };
+		D71EA64E1F46050F00B18C73 /* Corona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63D1F46050F00B18C73 /* Corona.jpg */; };
+		D71EA64F1F46050F00B18C73 /* Corona.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63E1F46050F00B18C73 /* Corona.png */; };
+		D71EA6501F46050F00B18C73 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63F1F46050F00B18C73 /* Default~iphone.png */; };
+		D71EA6511F46050F00B18C73 /* facebook_share result.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6401F46050F00B18C73 /* facebook_share result.png */; };
+		D71EA6521F46050F00B18C73 /* facebook_share.gif in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6411F46050F00B18C73 /* facebook_share.gif */; };
+		D71EA6531F46050F00B18C73 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6421F46050F00B18C73 /* facebook.png */; };
+		D71EA65B1F46167E00B18C73 /* faceBookPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6561F46167E00B18C73 /* faceBookPage.m */; };
+		D71EA65C1F46167E00B18C73 /* faceBookPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6571F46167E00B18C73 /* faceBookPage.xib */; };
+		D71EA65D1F46167E00B18C73 /* info_page.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6591F46167E00B18C73 /* info_page.m */; };
+		D71EA65E1F46167E00B18C73 /* info_page.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71EA65A1F46167E00B18C73 /* info_page.xib */; };
+		D71EA6741F4617E000B18C73 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6601F4617E000B18C73 /* FBConnect.bundle */; };
+		D71EA6751F4617E000B18C73 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6631F4617E000B18C73 /* FBConnectGlobal.m */; };
+		D71EA6761F4617E000B18C73 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6651F4617E000B18C73 /* FBDialog.m */; };
+		D71EA6771F4617E000B18C73 /* FBFeedDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6671F4617E000B18C73 /* FBFeedDialog.m */; };
+		D71EA6781F4617E000B18C73 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6691F4617E000B18C73 /* FBLoginButton.m */; };
+		D71EA6791F4617E000B18C73 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA66B1F4617E000B18C73 /* FBLoginDialog.m */; };
+		D71EA67A1F4617E000B18C73 /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA66D1F4617E000B18C73 /* FBPermissionDialog.m */; };
+		D71EA67B1F4617E000B18C73 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA66F1F4617E000B18C73 /* FBRequest.m */; };
+		D71EA67C1F4617E000B18C73 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6711F4617E000B18C73 /* FBSession.m */; };
+		D71EA67D1F4617E000B18C73 /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6731F4617E000B18C73 /* FBXMLHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D71EA6141F457F5700B18C73 /* What beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71EA6181F457F5700B18C73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D71EA61A1F457F5700B18C73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D71EA61B1F457F5700B18C73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D71EA61D1F457F5700B18C73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D71EA61E1F457F5700B18C73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D71EA6211F457F5700B18C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D71EA6241F457F5700B18C73 /* Chooser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chooser.xcdatamodel; sourceTree = "<group>"; };
+		D71EA6261F457F5700B18C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D71EA6291F457F5700B18C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D71EA62B1F457F5700B18C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71EA6321F46050F00B18C73 /* 1DPB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1DPB.png; path = images/1DPB.png; sourceTree = "<group>"; };
+		D71EA6331F46050F00B18C73 /* AF2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AF2.png; path = images/AF2.png; sourceTree = "<group>"; };
+		D71EA6341F46050F00B18C73 /* blue button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue button.png"; path = "images/blue button.png"; sourceTree = "<group>"; };
+		D71EA6351F46050F00B18C73 /* Budweiser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Budweiser.jpg; path = images/Budweiser.jpg; sourceTree = "<group>"; };
+		D71EA6361F46050F00B18C73 /* Budweiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Budweiser.png; path = images/Budweiser.png; sourceTree = "<group>"; };
+		D71EA6371F46050F00B18C73 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = images/button.png; sourceTree = "<group>"; };
+		D71EA6381F46050F00B18C73 /* cool blue quiz ribbons merged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cool blue quiz ribbons merged.png"; path = "images/cool blue quiz ribbons merged.png"; sourceTree = "<group>"; };
+		D71EA6391F46050F00B18C73 /* cool blue quiz ribbons merged.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "cool blue quiz ribbons merged.psd"; path = "images/cool blue quiz ribbons merged.psd"; sourceTree = "<group>"; };
+		D71EA63A1F46050F00B18C73 /* cool blue quiz ribbons.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "cool blue quiz ribbons.psd"; path = "images/cool blue quiz ribbons.psd"; sourceTree = "<group>"; };
+		D71EA63B1F46050F00B18C73 /* Coors Light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Coors Light.jpg"; path = "images/Coors Light.jpg"; sourceTree = "<group>"; };
+		D71EA63C1F46050F00B18C73 /* Coors Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coors Light.png"; path = "images/Coors Light.png"; sourceTree = "<group>"; };
+		D71EA63D1F46050F00B18C73 /* Corona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Corona.jpg; path = images/Corona.jpg; sourceTree = "<group>"; };
+		D71EA63E1F46050F00B18C73 /* Corona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Corona.png; path = images/Corona.png; sourceTree = "<group>"; };
+		D71EA63F1F46050F00B18C73 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "images/Default~iphone.png"; sourceTree = "<group>"; };
+		D71EA6401F46050F00B18C73 /* facebook_share result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook_share result.png"; path = "images/facebook_share result.png"; sourceTree = "<group>"; };
+		D71EA6411F46050F00B18C73 /* facebook_share.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = facebook_share.gif; path = images/facebook_share.gif; sourceTree = "<group>"; };
+		D71EA6421F46050F00B18C73 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = images/facebook.png; sourceTree = "<group>"; };
+		D71EA6551F46167E00B18C73 /* faceBookPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = faceBookPage.h; path = SubViews/faceBookPage.h; sourceTree = "<group>"; };
+		D71EA6561F46167E00B18C73 /* faceBookPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = faceBookPage.m; path = SubViews/faceBookPage.m; sourceTree = "<group>"; };
+		D71EA6571F46167E00B18C73 /* faceBookPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = faceBookPage.xib; path = SubViews/faceBookPage.xib; sourceTree = "<group>"; };
+		D71EA6581F46167E00B18C73 /* info_page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = info_page.h; path = SubViews/info_page.h; sourceTree = "<group>"; };
+		D71EA6591F46167E00B18C73 /* info_page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = info_page.m; path = SubViews/info_page.m; sourceTree = "<group>"; };
+		D71EA65A1F46167E00B18C73 /* info_page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = info_page.xib; path = SubViews/info_page.xib; sourceTree = "<group>"; };
+		D71EA6601F4617E000B18C73 /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = FBConnect/FBConnect.bundle; sourceTree = "<group>"; };
+		D71EA6611F4617E000B18C73 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnect.h; path = FBConnect/FBConnect.h; sourceTree = "<group>"; };
+		D71EA6621F4617E000B18C73 /* FBConnectGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnectGlobal.h; path = FBConnect/FBConnectGlobal.h; sourceTree = "<group>"; };
+		D71EA6631F4617E000B18C73 /* FBConnectGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBConnectGlobal.m; path = FBConnect/FBConnectGlobal.m; sourceTree = "<group>"; };
+		D71EA6641F4617E000B18C73 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBDialog.h; path = FBConnect/FBDialog.h; sourceTree = "<group>"; };
+		D71EA6651F4617E000B18C73 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBDialog.m; path = FBConnect/FBDialog.m; sourceTree = "<group>"; };
+		D71EA6661F4617E000B18C73 /* FBFeedDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBFeedDialog.h; path = FBConnect/FBFeedDialog.h; sourceTree = "<group>"; };
+		D71EA6671F4617E000B18C73 /* FBFeedDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBFeedDialog.m; path = FBConnect/FBFeedDialog.m; sourceTree = "<group>"; };
+		D71EA6681F4617E000B18C73 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = FBConnect/FBLoginButton.h; sourceTree = "<group>"; };
+		D71EA6691F4617E000B18C73 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginButton.m; path = FBConnect/FBLoginButton.m; sourceTree = "<group>"; };
+		D71EA66A1F4617E000B18C73 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginDialog.h; path = FBConnect/FBLoginDialog.h; sourceTree = "<group>"; };
+		D71EA66B1F4617E000B18C73 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginDialog.m; path = FBConnect/FBLoginDialog.m; sourceTree = "<group>"; };
+		D71EA66C1F4617E000B18C73 /* FBPermissionDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBPermissionDialog.h; path = FBConnect/FBPermissionDialog.h; sourceTree = "<group>"; };
+		D71EA66D1F4617E000B18C73 /* FBPermissionDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBPermissionDialog.m; path = FBConnect/FBPermissionDialog.m; sourceTree = "<group>"; };
+		D71EA66E1F4617E000B18C73 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBRequest.h; path = FBConnect/FBRequest.h; sourceTree = "<group>"; };
+		D71EA66F1F4617E000B18C73 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBRequest.m; path = FBConnect/FBRequest.m; sourceTree = "<group>"; };
+		D71EA6701F4617E000B18C73 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSession.h; path = FBConnect/FBSession.h; sourceTree = "<group>"; };
+		D71EA6711F4617E000B18C73 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSession.m; path = FBConnect/FBSession.m; sourceTree = "<group>"; };
+		D71EA6721F4617E000B18C73 /* FBXMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXMLHandler.h; path = FBConnect/FBXMLHandler.h; sourceTree = "<group>"; };
+		D71EA6731F4617E000B18C73 /* FBXMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBXMLHandler.m; path = FBConnect/FBXMLHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71EA6111F457F5700B18C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D71EA60B1F457F5700B18C73 = {
+			isa = PBXGroup;
+			children = (
+				D71EA6161F457F5700B18C73 /* Choosr */,
+				D71EA6151F457F5700B18C73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71EA6151F457F5700B18C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71EA6141F457F5700B18C73 /* What beer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71EA6161F457F5700B18C73 /* Choosr */ = {
+			isa = PBXGroup;
+			children = (
+				D71EA65F1F4617A800B18C73 /* FBConnect */,
+				D71EA6541F46165A00B18C73 /* SubViews */,
+				D71EA6311F46045600B18C73 /* images */,
+				D71EA61A1F457F5700B18C73 /* AppDelegate.h */,
+				D71EA61B1F457F5700B18C73 /* AppDelegate.m */,
+				D71EA61D1F457F5700B18C73 /* ViewController.h */,
+				D71EA61E1F457F5700B18C73 /* ViewController.m */,
+				D71EA6201F457F5700B18C73 /* Main.storyboard */,
+				D71EA6261F457F5700B18C73 /* Assets.xcassets */,
+				D71EA6281F457F5700B18C73 /* LaunchScreen.storyboard */,
+				D71EA62B1F457F5700B18C73 /* Info.plist */,
+				D71EA6231F457F5700B18C73 /* Chooser.xcdatamodeld */,
+				D71EA6171F457F5700B18C73 /* Supporting Files */,
+			);
+			name = Choosr;
+			path = Chooser;
+			sourceTree = "<group>";
+		};
+		D71EA6171F457F5700B18C73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D71EA6181F457F5700B18C73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D71EA6311F46045600B18C73 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D71EA6321F46050F00B18C73 /* 1DPB.png */,
+				D71EA6331F46050F00B18C73 /* AF2.png */,
+				D71EA6341F46050F00B18C73 /* blue button.png */,
+				D71EA6351F46050F00B18C73 /* Budweiser.jpg */,
+				D71EA6361F46050F00B18C73 /* Budweiser.png */,
+				D71EA6371F46050F00B18C73 /* button.png */,
+				D71EA6381F46050F00B18C73 /* cool blue quiz ribbons merged.png */,
+				D71EA6391F46050F00B18C73 /* cool blue quiz ribbons merged.psd */,
+				D71EA63A1F46050F00B18C73 /* cool blue quiz ribbons.psd */,
+				D71EA63B1F46050F00B18C73 /* Coors Light.jpg */,
+				D71EA63C1F46050F00B18C73 /* Coors Light.png */,
+				D71EA63D1F46050F00B18C73 /* Corona.jpg */,
+				D71EA63E1F46050F00B18C73 /* Corona.png */,
+				D71EA63F1F46050F00B18C73 /* Default~iphone.png */,
+				D71EA6401F46050F00B18C73 /* facebook_share result.png */,
+				D71EA6411F46050F00B18C73 /* facebook_share.gif */,
+				D71EA6421F46050F00B18C73 /* facebook.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D71EA6541F46165A00B18C73 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				D71EA6551F46167E00B18C73 /* faceBookPage.h */,
+				D71EA6561F46167E00B18C73 /* faceBookPage.m */,
+				D71EA6571F46167E00B18C73 /* faceBookPage.xib */,
+				D71EA6581F46167E00B18C73 /* info_page.h */,
+				D71EA6591F46167E00B18C73 /* info_page.m */,
+				D71EA65A1F46167E00B18C73 /* info_page.xib */,
+			);
+			name = SubViews;
+			sourceTree = "<group>";
+		};
+		D71EA65F1F4617A800B18C73 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				D71EA6601F4617E000B18C73 /* FBConnect.bundle */,
+				D71EA6611F4617E000B18C73 /* FBConnect.h */,
+				D71EA6621F4617E000B18C73 /* FBConnectGlobal.h */,
+				D71EA6631F4617E000B18C73 /* FBConnectGlobal.m */,
+				D71EA6641F4617E000B18C73 /* FBDialog.h */,
+				D71EA6651F4617E000B18C73 /* FBDialog.m */,
+				D71EA6661F4617E000B18C73 /* FBFeedDialog.h */,
+				D71EA6671F4617E000B18C73 /* FBFeedDialog.m */,
+				D71EA6681F4617E000B18C73 /* FBLoginButton.h */,
+				D71EA6691F4617E000B18C73 /* FBLoginButton.m */,
+				D71EA66A1F4617E000B18C73 /* FBLoginDialog.h */,
+				D71EA66B1F4617E000B18C73 /* FBLoginDialog.m */,
+				D71EA66C1F4617E000B18C73 /* FBPermissionDialog.h */,
+				D71EA66D1F4617E000B18C73 /* FBPermissionDialog.m */,
+				D71EA66E1F4617E000B18C73 /* FBRequest.h */,
+				D71EA66F1F4617E000B18C73 /* FBRequest.m */,
+				D71EA6701F4617E000B18C73 /* FBSession.h */,
+				D71EA6711F4617E000B18C73 /* FBSession.m */,
+				D71EA6721F4617E000B18C73 /* FBXMLHandler.h */,
+				D71EA6731F4617E000B18C73 /* FBXMLHandler.m */,
+			);
+			name = FBConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71EA6131F457F5700B18C73 /* What beer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71EA62E1F457F5700B18C73 /* Build configuration list for PBXNativeTarget "What beer" */;
+			buildPhases = (
+				D71EA6101F457F5700B18C73 /* Sources */,
+				D71EA6111F457F5700B18C73 /* Frameworks */,
+				D71EA6121F457F5700B18C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What beer";
+			productName = Chooser;
+			productReference = D71EA6141F457F5700B18C73 /* What beer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71EA60C1F457F5700B18C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D71EA6131F457F5700B18C73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D71EA60F1F457F5700B18C73 /* Build configuration list for PBXProject "What beer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71EA60B1F457F5700B18C73;
+			productRefGroup = D71EA6151F457F5700B18C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71EA6131F457F5700B18C73 /* What beer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71EA6121F457F5700B18C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71EA64D1F46050F00B18C73 /* Coors Light.png in Resources */,
+				D71EA6501F46050F00B18C73 /* Default~iphone.png in Resources */,
+				D71EA6451F46050F00B18C73 /* blue button.png in Resources */,
+				D71EA62A1F457F5700B18C73 /* LaunchScreen.storyboard in Resources */,
+				D71EA6471F46050F00B18C73 /* Budweiser.png in Resources */,
+				D71EA6441F46050F00B18C73 /* AF2.png in Resources */,
+				D71EA64B1F46050F00B18C73 /* cool blue quiz ribbons.psd in Resources */,
+				D71EA6271F457F5700B18C73 /* Assets.xcassets in Resources */,
+				D71EA6431F46050F00B18C73 /* 1DPB.png in Resources */,
+				D71EA6221F457F5700B18C73 /* Main.storyboard in Resources */,
+				D71EA6491F46050F00B18C73 /* cool blue quiz ribbons merged.png in Resources */,
+				D71EA6481F46050F00B18C73 /* button.png in Resources */,
+				D71EA65C1F46167E00B18C73 /* faceBookPage.xib in Resources */,
+				D71EA64A1F46050F00B18C73 /* cool blue quiz ribbons merged.psd in Resources */,
+				D71EA6511F46050F00B18C73 /* facebook_share result.png in Resources */,
+				D71EA64C1F46050F00B18C73 /* Coors Light.jpg in Resources */,
+				D71EA65E1F46167E00B18C73 /* info_page.xib in Resources */,
+				D71EA64E1F46050F00B18C73 /* Corona.jpg in Resources */,
+				D71EA6741F4617E000B18C73 /* FBConnect.bundle in Resources */,
+				D71EA6461F46050F00B18C73 /* Budweiser.jpg in Resources */,
+				D71EA6531F46050F00B18C73 /* facebook.png in Resources */,
+				D71EA6521F46050F00B18C73 /* facebook_share.gif in Resources */,
+				D71EA64F1F46050F00B18C73 /* Corona.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71EA6101F457F5700B18C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71EA67B1F4617E000B18C73 /* FBRequest.m in Sources */,
+				D71EA67A1F4617E000B18C73 /* FBPermissionDialog.m in Sources */,
+				D71EA61F1F457F5700B18C73 /* ViewController.m in Sources */,
+				D71EA61C1F457F5700B18C73 /* AppDelegate.m in Sources */,
+				D71EA67C1F4617E000B18C73 /* FBSession.m in Sources */,
+				D71EA67D1F4617E000B18C73 /* FBXMLHandler.m in Sources */,
+				D71EA65D1F46167E00B18C73 /* info_page.m in Sources */,
+				D71EA6791F4617E000B18C73 /* FBLoginDialog.m in Sources */,
+				D71EA6781F4617E000B18C73 /* FBLoginButton.m in Sources */,
+				D71EA6751F4617E000B18C73 /* FBConnectGlobal.m in Sources */,
+				D71EA6191F457F5700B18C73 /* main.m in Sources */,
+				D71EA6761F4617E000B18C73 /* FBDialog.m in Sources */,
+				D71EA6771F4617E000B18C73 /* FBFeedDialog.m in Sources */,
+				D71EA6251F457F5700B18C73 /* Chooser.xcdatamodeld in Sources */,
+				D71EA65B1F46167E00B18C73 /* faceBookPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D71EA6201F457F5700B18C73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71EA6211F457F5700B18C73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D71EA6281F457F5700B18C73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71EA6291F457F5700B18C73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D71EA62C1F457F5700B18C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D71EA62D1F457F5700B18C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D71EA62F1F457F5700B18C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chooser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creetiveappdevelopment.choosr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D71EA6301F457F5700B18C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chooser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creetiveappdevelopment.choosr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71EA60F1F457F5700B18C73 /* Build configuration list for PBXProject "What beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71EA62C1F457F5700B18C73 /* Debug */,
+				D71EA62D1F457F5700B18C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71EA62E1F457F5700B18C73 /* Build configuration list for PBXNativeTarget "What beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71EA62F1F457F5700B18C73 /* Debug */,
+				D71EA6301F457F5700B18C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D71EA6231F457F5700B18C73 /* Chooser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D71EA6241F457F5700B18C73 /* Chooser.xcdatamodel */,
+			);
+			currentVersion = D71EA6241F457F5700B18C73 /* Chooser.xcdatamodel */;
+			path = Chooser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D71EA60C1F457F5700B18C73 /* Project object */;
+}
