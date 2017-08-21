@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class AppDelegate;
+@class GADBannerView;
 
 @interface ViewController : UIViewController
 {
@@ -36,6 +37,7 @@
     UIImageView *beerImage;
 }
 
+@property(nonatomic, weak) IBOutlet GADBannerView *bannerView;
 
 @property (retain, nonatomic) UILabel	*theQuestion;
 @property (retain, nonatomic) UILabel	*theScore;

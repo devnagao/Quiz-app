@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -111,6 +110,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yFW-I4-eq1" customClass="GADBannerView">
+                                <rect key="frame" x="27.5" y="617" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9O3-Op-YLi"/>
+                                    <constraint firstAttribute="width" constant="320" id="WLe-bf-jfe"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.89999997620000005" green="0.89999997620000005" blue="0.89999997620000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -121,9 +128,11 @@
                             <constraint firstItem="Mlx-aj-Xe5" firstAttribute="leading" secondItem="GK4-Oj-WGN" secondAttribute="leading" constant="16" id="Bnl-a4-1ME"/>
                             <constraint firstItem="4RV-2u-MWX" firstAttribute="top" secondItem="dRt-ch-qeU" secondAttribute="bottom" constant="2" id="EYz-LH-rva"/>
                             <constraint firstItem="WFq-bN-2YQ" firstAttribute="leading" secondItem="GK4-Oj-WGN" secondAttribute="leading" id="Efw-Am-iwI"/>
+                            <constraint firstItem="yFW-I4-eq1" firstAttribute="centerX" secondItem="GK4-Oj-WGN" secondAttribute="centerX" id="HKD-WS-Jq6"/>
                             <constraint firstItem="Mlx-aj-Xe5" firstAttribute="top" secondItem="Vbu-nn-Ae6" secondAttribute="bottom" constant="24" id="Iax-4E-uKs"/>
                             <constraint firstItem="hyk-45-7zb" firstAttribute="top" secondItem="WFq-bN-2YQ" secondAttribute="bottom" constant="2" id="Kuv-OS-rig"/>
                             <constraint firstItem="dRt-ch-qeU" firstAttribute="top" secondItem="hyk-45-7zb" secondAttribute="bottom" constant="2" id="LCB-Wp-Q4h"/>
+                            <constraint firstAttribute="bottom" secondItem="yFW-I4-eq1" secondAttribute="bottom" id="MbD-Oi-lEM"/>
                             <constraint firstItem="hyk-45-7zb" firstAttribute="leading" secondItem="GK4-Oj-WGN" secondAttribute="leading" id="O8W-tG-2Ie"/>
                             <constraint firstItem="WFq-bN-2YQ" firstAttribute="top" secondItem="Mlx-aj-Xe5" secondAttribute="bottom" constant="12" id="Ri2-vf-1zg"/>
                             <constraint firstItem="dRt-ch-qeU" firstAttribute="height" secondItem="4RV-2u-MWX" secondAttribute="height" id="Tbx-fY-Wn1"/>
@@ -150,6 +159,7 @@
                         <outlet property="answerOne" destination="WFq-bN-2YQ" id="e6G-VI-aez"/>
                         <outlet property="answerThree" destination="dRt-ch-qeU" id="bAp-2d-eRo"/>
                         <outlet property="answerTwo" destination="hyk-45-7zb" id="gvq-fu-x6g"/>
+                        <outlet property="bannerView" destination="yFW-I4-eq1" id="HTy-Zx-T3v"/>
                         <outlet property="fb" destination="FVu-JO-V50" id="jHc-u5-n8M"/>
                         <outlet property="theLives" destination="xP3-ii-N1Y" id="nfa-f3-LHg"/>
                         <outlet property="theQuestion" destination="Mlx-aj-Xe5" id="PPk-mL-eJX"/>

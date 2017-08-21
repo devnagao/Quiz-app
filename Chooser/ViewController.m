@@ -11,6 +11,8 @@
 #import "faceBookPage.h"
 #import "AppDelegate.h"
 
+@import GoogleMobileAds;
+
 static NSString *const kQuizQuestionKey             = @"kQuizQuestionKey";
 static NSString *const kQuizAnswersKey              = @"kQuizAnswersKey";
 static NSString *const kQuizCorrectAnswerIndexKey   = @"kQuizCorrectAnswerIndexKey";
@@ -35,6 +37,13 @@ static NSString *const kQuizAnswerResultKey         = @"kQuizAnswerResultKey";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // Replace this ad unit ID with your own ad unit ID.
+    self.bannerView.adUnitID = @"ca-app-pub-6593771122972764~2627111420";
+    self.bannerView.rootViewController = self;
+    
+    GADRequest *request = [GADRequest request];
+    [self.bannerView loadRequest:request];
     
     
     visitedQuestions = [[NSMutableArray alloc] init];
