@@ -64,7 +64,7 @@ BOOL feed=FALSE;
 // FBDialogDelegate
 
 - (void)dialog:(FBDialog*)dialog didFailWithError:(NSError*)error {
-	_label.text = [NSString stringWithFormat:@"Error(%d) %@", error.code,
+	_label.text = [NSString stringWithFormat:@"Error(%d) %@", (int)error.code,
 				   error.localizedDescription];
 }
 
@@ -109,7 +109,7 @@ BOOL feed=FALSE;
 }
 
 - (void)request:(FBRequest*)request didFailWithError:(NSError*)error {
-	_label.text = [NSString stringWithFormat:@"Error(%d) %@", error.code,
+	_label.text = [NSString stringWithFormat:@"Error(%d) %@", (int)error.code,
 				   error.localizedDescription];
 }
 

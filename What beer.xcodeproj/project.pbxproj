@@ -21,8 +21,6 @@
 		D71EA6471F46050F00B18C73 /* Budweiser.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6361F46050F00B18C73 /* Budweiser.png */; };
 		D71EA6481F46050F00B18C73 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6371F46050F00B18C73 /* button.png */; };
 		D71EA6491F46050F00B18C73 /* cool blue quiz ribbons merged.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6381F46050F00B18C73 /* cool blue quiz ribbons merged.png */; };
-		D71EA64A1F46050F00B18C73 /* cool blue quiz ribbons merged.psd in Resources */ = {isa = PBXBuildFile; fileRef = D71EA6391F46050F00B18C73 /* cool blue quiz ribbons merged.psd */; };
-		D71EA64B1F46050F00B18C73 /* cool blue quiz ribbons.psd in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63A1F46050F00B18C73 /* cool blue quiz ribbons.psd */; };
 		D71EA64C1F46050F00B18C73 /* Coors Light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63B1F46050F00B18C73 /* Coors Light.jpg */; };
 		D71EA64D1F46050F00B18C73 /* Coors Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63C1F46050F00B18C73 /* Coors Light.png */; };
 		D71EA64E1F46050F00B18C73 /* Corona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71EA63D1F46050F00B18C73 /* Corona.jpg */; };
@@ -45,6 +43,7 @@
 		D71EA67B1F4617E000B18C73 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA66F1F4617E000B18C73 /* FBRequest.m */; };
 		D71EA67C1F4617E000B18C73 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6711F4617E000B18C73 /* FBSession.m */; };
 		D71EA67D1F4617E000B18C73 /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D71EA6731F4617E000B18C73 /* FBXMLHandler.m */; };
+		FA0BA53A1F47B81200D0B565 /* quiz1.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA0BA5391F47B81200D0B565 /* quiz1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,8 +65,6 @@
 		D71EA6361F46050F00B18C73 /* Budweiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Budweiser.png; path = images/Budweiser.png; sourceTree = "<group>"; };
 		D71EA6371F46050F00B18C73 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = images/button.png; sourceTree = "<group>"; };
 		D71EA6381F46050F00B18C73 /* cool blue quiz ribbons merged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cool blue quiz ribbons merged.png"; path = "images/cool blue quiz ribbons merged.png"; sourceTree = "<group>"; };
-		D71EA6391F46050F00B18C73 /* cool blue quiz ribbons merged.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "cool blue quiz ribbons merged.psd"; path = "images/cool blue quiz ribbons merged.psd"; sourceTree = "<group>"; };
-		D71EA63A1F46050F00B18C73 /* cool blue quiz ribbons.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "cool blue quiz ribbons.psd"; path = "images/cool blue quiz ribbons.psd"; sourceTree = "<group>"; };
 		D71EA63B1F46050F00B18C73 /* Coors Light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Coors Light.jpg"; path = "images/Coors Light.jpg"; sourceTree = "<group>"; };
 		D71EA63C1F46050F00B18C73 /* Coors Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coors Light.png"; path = "images/Coors Light.png"; sourceTree = "<group>"; };
 		D71EA63D1F46050F00B18C73 /* Corona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Corona.jpg; path = images/Corona.jpg; sourceTree = "<group>"; };
@@ -102,6 +99,7 @@
 		D71EA6711F4617E000B18C73 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSession.m; path = FBConnect/FBSession.m; sourceTree = "<group>"; };
 		D71EA6721F4617E000B18C73 /* FBXMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXMLHandler.h; path = FBConnect/FBXMLHandler.h; sourceTree = "<group>"; };
 		D71EA6731F4617E000B18C73 /* FBXMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBXMLHandler.m; path = FBConnect/FBXMLHandler.m; sourceTree = "<group>"; };
+		FA0BA5391F47B81200D0B565 /* quiz1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quiz1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +168,6 @@
 				D71EA6361F46050F00B18C73 /* Budweiser.png */,
 				D71EA6371F46050F00B18C73 /* button.png */,
 				D71EA6381F46050F00B18C73 /* cool blue quiz ribbons merged.png */,
-				D71EA6391F46050F00B18C73 /* cool blue quiz ribbons merged.psd */,
-				D71EA63A1F46050F00B18C73 /* cool blue quiz ribbons.psd */,
 				D71EA63B1F46050F00B18C73 /* Coors Light.jpg */,
 				D71EA63C1F46050F00B18C73 /* Coors Light.png */,
 				D71EA63D1F46050F00B18C73 /* Corona.jpg */,
@@ -180,6 +176,7 @@
 				D71EA6401F46050F00B18C73 /* facebook_share result.png */,
 				D71EA6411F46050F00B18C73 /* facebook_share.gif */,
 				D71EA6421F46050F00B18C73 /* facebook.png */,
+				FA0BA5391F47B81200D0B565 /* quiz1.txt */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -288,17 +285,16 @@
 				D71EA62A1F457F5700B18C73 /* LaunchScreen.storyboard in Resources */,
 				D71EA6471F46050F00B18C73 /* Budweiser.png in Resources */,
 				D71EA6441F46050F00B18C73 /* AF2.png in Resources */,
-				D71EA64B1F46050F00B18C73 /* cool blue quiz ribbons.psd in Resources */,
 				D71EA6271F457F5700B18C73 /* Assets.xcassets in Resources */,
 				D71EA6431F46050F00B18C73 /* 1DPB.png in Resources */,
 				D71EA6221F457F5700B18C73 /* Main.storyboard in Resources */,
 				D71EA6491F46050F00B18C73 /* cool blue quiz ribbons merged.png in Resources */,
 				D71EA6481F46050F00B18C73 /* button.png in Resources */,
 				D71EA65C1F46167E00B18C73 /* faceBookPage.xib in Resources */,
-				D71EA64A1F46050F00B18C73 /* cool blue quiz ribbons merged.psd in Resources */,
 				D71EA6511F46050F00B18C73 /* facebook_share result.png in Resources */,
 				D71EA64C1F46050F00B18C73 /* Coors Light.jpg in Resources */,
 				D71EA65E1F46167E00B18C73 /* info_page.xib in Resources */,
+				FA0BA53A1F47B81200D0B565 /* quiz1.txt in Resources */,
 				D71EA64E1F46050F00B18C73 /* Corona.jpg in Resources */,
 				D71EA6741F4617E000B18C73 /* FBConnect.bundle in Resources */,
 				D71EA6461F46050F00B18C73 /* Budweiser.jpg in Resources */,
@@ -396,9 +392,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

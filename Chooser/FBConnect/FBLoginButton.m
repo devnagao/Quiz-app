@@ -99,7 +99,8 @@
 }
 
 - (void)awakeFromNib {
-  [self initButton];
+    [super awakeFromNib];
+    [self initButton];
 }
 
 - (void)dealloc {
